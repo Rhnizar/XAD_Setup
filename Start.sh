@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the ubuntu-container directory on the Desktop
-cd ~/Desktop/Containers || { echo "Directory ~/Desktop/Containers not found"; exit 1; }
+#cd ~/Desktop/Containers || { echo "Directory ~/Desktop/Containers not found"; exit 1; }
 
 # Build the Docker container with the tag "ubuntu-dev-container"
 echo "Building the Docker container..."
